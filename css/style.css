@@ -367,3 +367,18 @@ a{
         font-size: 1.7rem;
     }
 }
+
+/* Media */
+
+.media{
+    display: flex;
+}
+
+.media-tittle{
+    margin-top: 0;
+}
+
+.media-image{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
