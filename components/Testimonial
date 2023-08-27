@@ -1,0 +1,40 @@
+<div class="grid grid--1x2 card-testimonial">
+      <div class="testimonial-image-container">
+        <img
+          class="testimonial__image"
+          src="images/testimonial.jpg"
+          alt="A picture of a happy customer"
+        />
+        <span class="icon-container icon-container-accent">
+          <svg class="icon icon--accent icon--small">
+            <use xlink:href="images/sprite.svg#quotes"></use>
+          </svg>
+        </span>
+      </div>
+      <div>
+        <blockquote class="quote">
+          <p class="quote__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+            quis, earum iusto cupiditate et corporis eum odio quam, exercitationem,
+            numquam aliquid minima incidunt vel molestias eveniet. Nam provident
+            illum porro.
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media-image">
+                  <svg class="icon icon--primary quote__line">
+                    <use xlink:href="images/sprite.svg#line"></use>
+                  </svg>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="media-tittle quote__author">Muhammad B</h3>
+                <p class="quote__company">
+                  Amec international
+                </p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
