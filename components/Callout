@@ -1,0 +1,13 @@
+<div class="callout callout-primary">
+  <div class="grid grid--1x2">
+    <div class="callout__body">
+      <h3 class="callout__heading">Ready to Get Started</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum
+        beatae maxime officia inventore, nostrum blanditiis saepe magnam ducimus
+        totam.
+      </p>
+    </div>
+    <a class="btn btn--secondary btn--large" href="#">Get Started</a>
+  </div>
+</div>
