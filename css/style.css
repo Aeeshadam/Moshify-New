@@ -329,6 +329,9 @@ a{
     background-color: #02cdf1;
 }
 
+.card--primary .badge--primary{
+    background-color: #0756be;}
+
 .card--secondary .card__header{
     background-color: var(--color-secondary);
     color: white;
@@ -363,6 +366,12 @@ a{
     margin-bottom: 2rem;
 }
 
+
+.plan:hover{
+    transform: scale(1.05);
+}
+
+
 .plan--popular .card__header{
     position: relative;
 }
@@ -392,6 +401,13 @@ a{
     .plan__description{
         font-size: 1.7rem;
     }
+
+    .plan--popular{
+        transform: scale(1.1);}
+
+    .plan--popular:hover{
+            transform: scale(1.15);
+        }    
 }
 
 /* Media */
@@ -750,4 +766,19 @@ a{
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
         
     }
+}
+
+/* Plan Block*/
+
+.block-plans .grid{
+    gap: 8rem 4rem;
+}
+
+.block-plans .card{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.plan{
+    transition: transform 0.2s ease-out;
 }
