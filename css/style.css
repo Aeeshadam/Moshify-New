@@ -782,3 +782,31 @@ a{
 .plan{
     transition: transform 0.2s ease-out;
 }
+
+/* Feeatures */
+
+.feature__heading{
+    margin: 1rem 0;
+}
+
+.feature{
+    gap: 5rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature__image{
+    width: 100%;
+
+}
+
+.feature:first-of-type{
+    margin-top: 6rem;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .feature:nth-last-of-type(even) .feature__content{
+        order: 2;
+    }
+}
