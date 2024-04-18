@@ -1,2 +1,2 @@
-# Moshify-New
- My first HTML/CSS
+# Moshify website
+ My first HTML/CSS project built from a course
